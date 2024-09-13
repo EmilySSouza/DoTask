@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body{
+    background: linear-gradient(135deg,#addcca, #aebe89);
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
