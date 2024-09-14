@@ -1,8 +1,25 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: block;
+    background: linear-gradient(135deg,rgb(173, 220, 202, 1) 32%, rgb(174, 190, 137, 1) 61%);
+    background-repeat:no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
 #app {
     display: flex;
     flex-direction: column;
@@ -13,11 +30,22 @@
     min-height: 100%;
 }
 
-body{
-    background: linear-gradient(135deg,#addcca, #aebe89);
+.section01 {
+    display: block;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.625);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    min-width: 450px;
+    min-height: 80px;
 }
 
-h1 {
-    color: white;
-    text-shadow: 2px 2px 2px black;
+.input_task {
+    font-family: "League Spartan", sans-serif;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    min-width: 350px;
+    min-height: 40px;
+    margin-top: 20px;
+    margin-left: 25px;
 }
