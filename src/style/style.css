@@ -12,7 +12,9 @@
 body{
     display: block;
     background: linear-gradient(135deg,rgb(173, 220, 202, 1) 32%, rgb(174, 190, 137, 1) 61%);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 44.5em;
 }
 
 h1 {
@@ -25,7 +27,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    gap: 10px;
+    gap: 20px;
     min-width: 100%;
     min-height: 100%;
 }
@@ -33,19 +35,79 @@ h1 {
 .section01 {
     display: block;
     flex-direction: column;
-    background-color:rgba(255, 255, 255, 0.625);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    min-width: 450px;
-    min-height: 80px;
+    background-color:rgba(255, 255, 255, 0.711);
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 80px;
 }
 
-.input_task {
+.section02 {
+
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.711);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 450px;
+    height: 80px;
+
+}
+
+#text_task {
+    
     font-family: "League Spartan", sans-serif;
-    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.352);
     border-radius: 4px;
+    min-width: 300px;
+    min-height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 17px;
+
+}
+
+#text_recebe{
+    
+    display: flex;
+    font-family: "League Spartan", sans-serif;
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
     min-width: 350px;
     min-height: 40px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-bottom: 30px;    
+    font-size: 20px;
+
+}
+ 
+#button_adicionar {
+    
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    min-height: 35px;
+    min-width: 70px;
+    margin-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.352);
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(91, 163, 91, 0.647);
+
+}
+
+#button_excluir {
+    
+    font-size: 23px;
+    min-height: 25px;
+    min-width: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    border: 1px solid rgba(255, 255, 255, 0.352);
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(91, 163, 91, 0.647); 
+
 }
