@@ -1,46 +1,4 @@
 
-
-// function pegar_dados() {
-    
-//     var tasks = document.getElementById('text_task').value;
-//     localStorage.setItem('Frase', tasks);
-
-//     const frases = localStorage.getItem('Frase');
-
-//     arrayItens(frases)
-// }
-
-
-// function arrayItens(frases) {
-
-//     let mensagens = JSON.parse(localStorage.getItem('BD')) || [];
-
-//     const BD = {
-//         id: frases.length+1,
-//         msg: frases
-//     }; 
-
-//     mensagens.push(BD);
-
-//     // localStorage.setItem('BD',JSON.stringify(mensagens));
-//     const nomes = BD.msg;
-//     localStorage.setItem('nomes', JSON.stringify(nomes));
-
-//     arrayExibir(nomes);
-
-//     return BD;
-// }
-
-
-// function arrayExibir(nomes) {
-
-    
-//     document.getElementById('text_recebe').textContent = nomes.join(', ');;
-// }
-
-// pegar_dados();
-
-
 function pegar_dados() {
     var tasks = document.getElementById('text_task').value;
     
@@ -77,4 +35,3 @@ function arrayItens(frases, mensagens) {
 function arrayExibir(nomes) {
     document.getElementById('text_recebe').textContent = nomes.join(', ');
 }
-

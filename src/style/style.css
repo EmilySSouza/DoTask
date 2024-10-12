@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: block;
     background: linear-gradient(135deg,rgb(173, 220, 202, 1) 32%, rgb(174, 190, 137, 1) 61%);
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ body{
 h1 {
     color: white;
     text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
 }
 
 #app {
@@ -43,7 +44,6 @@ h1 {
 }
 
 .section02 {
-
     display: flex;
     background-color:rgba(255, 255, 255, 0.711);
     border: none;
@@ -51,40 +51,35 @@ h1 {
     margin-top: 30px;
     width: 450px;
     height: 80px;
-
 }
 
 #text_task {
-    
     font-family: "League Spartan", sans-serif;
-    text-align: center;
+    font-size: 20px;
     border: 1px solid rgba(255, 255, 255, 0.352);
+    color:rgb(84, 84, 84);
+    text-align: center;
     border-radius: 4px;
     min-width: 300px;
     min-height: 40px;
     margin-top: 20px;
     margin-left: 30px;
-    font-size: 17px;
-
 }
 
-#text_recebe{
-    
-    display: flex;
+#text_recebe {
     font-family: "League Spartan", sans-serif;
-    background-color:rgba(255, 255, 255, 0);
-    border: none;
+    display: flex;
+    justify-content: center;
+    color: rgb(31, 31, 31);
+    font-size: 22px;
     min-width: 350px;
     min-height: 40px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 30px;    
-    font-size: 20px;
-
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 30px;
 }
  
 #button_adicionar {
-    
     font-family: "League Spartan", sans-serif;
     font-size: 17px;
     min-height: 35px;
@@ -94,11 +89,9 @@ h1 {
     border-radius: 4px;
     color: white;
     background-color: rgba(91, 163, 91, 0.647);
-
 }
 
 #button_excluir {
-    
     font-size: 23px;
     min-height: 25px;
     min-width: 60px;
@@ -109,5 +102,4 @@ h1 {
     border-radius: 4px;
     color: white;
     background-color: rgba(91, 163, 91, 0.647); 
-
 }
